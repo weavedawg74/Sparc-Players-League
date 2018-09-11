@@ -1,0 +1,1109 @@
+/*Header Related*/
+
+#sr-header-area .sr-list, #sr-header-area .dropdown.srdrop, #sr-more-link {
+    background: #000000;
+    border: 1px solid #269ed1;
+    margin-top: -4px;
+    margin-left: 0;
+    padding-left: 1px;
+    box-shadow: 0 0 15px #269ED1;
+} 
+
+.sr-list .separator, .separator {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#sr-header-area {
+    background-color: #000000 !important;
+    font-family: futura, sans-serif;
+    position:absolute;top:0;left:0;
+    display:block;height:.9rem;
+    width:100%;border-bottom:none!important
+}
+
+#sr-header-area .drop-choices a {
+    background: #000000; 
+    color: #ffffff !important;
+    font-family: futura, sans-serif;
+    border: .25px solid #269ed1;
+}
+
+a.choice, .dropdown.srdrop .selected, #sr-more-link {
+    color: #269ed1;
+}
+
+a.choice:hover, #sr-more-link:hover {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #269ed1;
+    border-radius: 12px;
+}
+
+#header {
+    background: url(%%SPL-banner-8Bit%%);
+    width: 1920px;
+    height: 165px;
+    -webkit-animation: scroll 75s linear infinite;
+    animation: scroll 75s linear infinite;
+    background-position-y: 19px;
+}
+
+@-webkit-keyframes scroll {
+    from { background-position-x: 0; }
+    to   { background-position-x: -4800px; }
+}
+@keyframes scroll {
+    from { background-position-x: 0; }
+    to   { background-position-x: -4800px; }
+}
+
+#header-bottom-left {
+	position: absolute; 
+        bottom: 0; 
+}
+ 
+span.pagename.redditname a {
+	color: #ffffff;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #269ed1,
+                                0 1px 1px #269ed1,
+                                1px 0 1px #269ed1,
+                                1px 1px 1px #269ed1,
+                                0 1px 1px #269ed1,
+                                1px 0 1px #269ed1;
+       font-family: futura, sans-serif;
+}
+
+span.pagename.redditname a:hover {
+	color: #ffffff;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px #269ed1,
+                                0 1px 1px #269ed1,
+                                1px 0 1px #269ed1,
+                                1px 1px 1px #269ed1,
+                                0 1px 1px #269ed1,
+                                1px 0 1px #269ed1;
+        font-family: futura, sans-serif;
+        text-decoration: none;
+}
+ 
+#header-img {
+  height: 50px;
+  width: auto;
+  margin-left: 15px; 
+}
+
+#header-img:hover {
+  height: 90px;
+  width: auto;
+  margin-left: 15px; 
+}
+
+#header .tabmenu [href$="/rising/"], #header .tabmenu [href$="/gilded/"], .nub, div.titlebox span.word, .users-online .word {
+    display: none;
+}
+
+/*#header-img-a:hover:after {
+    display:block;
+    position:absolute;
+    top:70px;
+    left:70px;
+    background:#000000;
+    padding:5px;
+    font-size:20px;
+    color:#ffffff;
+    border:3px solid #269ed1;
+    content:"EXIT COURT"
+}*/
+
+            /* Rounded tabs */
+#header .tabmenu li a{
+    border: transparent;
+    border-radius: 15px;
+    /*border-top-right-radius: 6px;*/
+    position:relative;
+    display:inline-block;
+    background: #ffffff !important;
+    font-size: 14px;
+    font-family: futura, sans-serif;
+    text-transform: uppercase!important;
+    /*transform: skewX(-.3rad);*/
+}
+
+#header .tabmenu li.selected a{
+    color: #000000;
+    border-color: transparent;
+    background-color: #269ED1 !important;
+    /*border-bottom-color: #000000 !important;*/
+}
+
+#header .tabmenu li{
+    margin: 0;
+    padding-bottom:2px;
+}
+
+#header .tabmenu{
+    padding:3px;
+    padding-bottom:2px;
+    overflow: hidden;
+    position: relative;
+    bottom:-2px;
+}
+
+#header .tabmenu:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 10px solid transparent;
+}
+
+#header .tabmenu li a:before,
+#header .tabmenu li a:after {
+    position: absolute;
+    bottom: -5px;
+    width: 6px;
+    height: 6px;
+    content: " ";
+    border: transparent;
+}
+
+#header .tabmenu li a:before {
+    left: -7px;
+    /*border-bottom-right-radius: 6px;*/
+    /*border-width: 0 1px 1px 0 !important;*/
+    box-shadow: 2px 2px 0 #269ED1;
+}
+
+#header .tabmenu li a:after {
+    right: -7px;
+    /*border-bottom-left-radius: 6px;*/
+    /*border-width: 0 0 1px 1px !important;*/
+    box-shadow: -2px 2px 0 #269ED1;
+}
+
+#header .tabmenu li.selected a:before{
+    box-shadow: 2px 2px 0 #269ED1;
+}
+
+#header .tabmenu li.selected a:after{
+    box-shadow: -2px 2px 0 #269ED1;
+}
+
+#header .tabmenu li a:hover { 
+         border-color: transparent;
+         color: #000000; 
+         background-color: #000000; 
+         font-size: 20px;
+         box-shadow: 0 0 15px 2px #269ed1, inset 0 0 2px 0 #269ed1;
+         border-bottom: 0 solid transparent;
+}
+
+#header-bottom-right {
+    font-family: futura, sans-serif;
+    text-transform: uppercase !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    padding: 3px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px .5px #269ed1, inset 0 0 .5px 0 #269ed1;
+}
+
+#header-bottom-right  *{
+    color: #269ed1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sidebar Related*/
+
+#search input[type="text"]{
+     border-radius: 15px;
+     border: .35px solid #000000;
+     font-family: futura, sans-serif;
+     font-weight: bold;
+     color: #000000;
+     background: #ffffff;
+}
+
+              /*Add Image to Sidebar*/
+div.side div.spacer:nth-of-type(1) {
+	padding-top: 165px; /*Change "100px" to the height to the height of your image*/
+	background:url(%%SPLRedditVest%%) center no-repeat;
+        border: 1px solid #269ED1;
+        font-family: futura, sans-serif;
+        box-shadow: 0 0 15px 3px #269ed1, inset 0 0 2px 0 #269ed1;
+        border-radius: 15px;
+}
+ 
+             /*Adds a caption under Sidebar Image*/
+div.side div.spacer:nth-of-type(1):before {
+	display:block;
+	margin-top: 75px;
+	width: 300px;
+	content: "This is Where Champions Play.";
+	padding: 0 0 10px;
+	text-align: center; /*delete this line if you no longer want the text centered*/
+	font-size: large; /*Change the font-size to your liking*/
+        border-radius: 15px;
+        font-family: futura, sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #000000!important; 
+}
+
+       /*Subscribe Button*/
+.fancy-toggle-button a {
+    color: #269ed1 !important;
+    background: #000000 !important;
+    border: .5px solid #269ed1!important;
+    box-shadow: 0 0 15px .5px #269ed1, inset 0 0 .5px 0 #269ed1;
+    font-family: futura, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 60px;
+}
+
+.fancy-toggle-button a:hover {
+    color: #ffffff !important;
+    background: #269ed1 !important;
+    border: 1px solid #269ed1!important;
+    box-shadow: 0 0 15px 2px #000000, inset 0 0 2px 0 #000000;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #000000!important; 
+    border-radius: 12px;
+}
+
+.titlebox .tagline{
+   border-radius: 15px;
+   box-shadow: 0 0 15px 2px #269ed1, inset 0 0 2px 0 #269ed1;
+   background: #ffffff!important;
+}
+
+.titlebox .tagline a.author {
+    text-decoration: none;
+    color: #000000;
+    font-size: 11px;
+}
+
+.titlebox h1 a {
+     color: #ffffff;
+     font-size: 20px;
+     text-shadow: 1px 1px 3px #269ed1!important;
+     
+}
+
+.titlebox h1 a:hover {
+     color: #ffffff;
+     font-size: 25px;
+     text-shadow: 6px 6px 6px #269ed1!important;
+     text-decoration: none;
+}
+ 
+h1.redditname { 
+       text-align: center;
+} 
+
+.side {
+	padding-top: 10px;
+	background: linear-gradient(to left,rgba(1,14,27,1),rgba(14,52,82,1));
+        border-radius: 15px;
+        font-family: futura, sans-serif;
+}
+     
+.sidebox.submit .morelink, .sidebox.create .morelink {
+    background: #000000;
+    border: 1px solid #269ed1;
+    border-radius: 15px; 
+    text-transform: uppercase;
+    box-shadow: 0 0 15px .5px #269ed1, inset 0 0 .5px 0 #269ed1;
+}
+
+.morelink a { 
+    color: #269ed1; 
+    font-family: futura, sans-serif;
+    font-size: 17px;
+}
+
+.sidebox.submit .morelink:hover, .sidebox.create .morelink:hover {
+    background: #269ed1;
+    border: 2px solid #000000;
+    border-radius: 15px; /*too much?*/ 
+    text-transform: uppercase;
+    box-shadow: 0 0 15px 1.5px #269ed1, inset 0 0 5px 0 #269ed1;
+}
+
+.morelink a:hover { 
+    color: #ffffff; 
+    font-family: futura, sans-serif;
+    font-size: 20px; 
+    text-shadow: 1px 1px 2px #000000!important;
+}
+
+.sidebox.create .morelink a:hover { 
+    color: #ffffff; 
+    font-family: futura, sans-serif;
+    font-size: 17px; 
+    text-shadow: 1px 1px 2px #000000!important;
+}
+
+
+
+              /* Change 'readers' box value */
+
+div.titlebox span.number {
+    font-family: futura, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent;
+    z-index: 1;
+    min-height: 100%;
+}
+
+div.titlebox span.number:after {
+    content: " Players";
+    font-family: futura, sans-serif;
+    font-weight: bold;
+}
+
+            /* Change 'users here now' box value */
+
+.users-online .word, .users-online .number:after {
+    content: " People trying to figure where their ball went" !important;
+    font-family: futura, sans-serif;
+    font-weight: bold;
+}
+
+.sidebox .subtitle {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 110%;
+}
+.sidebox.create {
+    padding: 16px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(44,73,104,1) 0%, rgba(22,48,70,1) 45%, rgba(28,61,95,1) 62%, rgba(23,43,64,1) 100%);
+    box-shadow: 0 0 15px 7px #269ed1, inset 0 0 2px 0 #269ed1;
+    color: #000000;
+}
+
+.leavecontributor-button , .leavemoderator {
+    background: transparent!important;
+    text-transform: uppercase;
+    font-family: futura, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.side h1, p, .flat-vert {
+    font-size: 13px; 
+    color: #ffffff; 
+}
+
+/*Sidebar Lines*/
+.md hr {
+    border: 0;
+    color: transparent;
+    background: #269ed1;
+    height: 2px;
+    padding: 0;
+}
+ 
+span.age {
+    color: #ffffff;
+}
+
+.icon-menu a {
+    background: transparent none no-repeat scroll center left;
+    text-transform: uppercase;
+    font-family: futura, sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.sidebox .spacer {
+    position: relative;
+    margin-top: 10px;
+    padding: 5px 0 0 44px;
+    min-height: 41px;
+    background: transparent none no-repeat scroll top left;
+}
+
+.sidecontentbox .content {
+    margin: 0;
+    padding: 5px;
+    border: 10px solid #d60000;
+    font-size: larger;
+    list-style: none;
+    border-radius: 15px;
+}
+
+.side a.author {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.sidecontentbox .title h1 {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.titlebox form.toggle, .leavemoderator {
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 9px;
+    color: #ffffff;
+}
+
+.titlebox form.toggle a, .leavemoderator a {
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 9px;
+    color: #269ed1;
+    text-decoration: underline;
+}
+
+.sidecontentbox a.helplink {
+    float: right;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+/*Hyperlinks*/
+
+div.footer-parent a.choice {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}   
+
+div.footer-parent a.choice:hover {
+    text-decoration: none;
+    color: #ffffff!important;
+    font-size: 15px!important;
+    background: transparent;
+}   
+
+div.footer-parent {
+    box-shadow: 0 0 15px 2px #269ed1, inset 0 0 2px 0 #269ed1;
+}
+   
+.side .usertext a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.reddit-link-title {
+  color: #ffffff;
+}
+
+a.reddit-link-title:hover{
+  color: #269ed1;
+  font-size:16px;
+}
+
+.gadget small {
+  color: #ffffff;
+}
+
+.click-gadget small a {
+    text-decoration: none;
+    color: #269ed1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Body Related*/
+
+                    /*Background*/
+body {
+   width: 100%;
+   margin: 0 auto;
+   padding-top: 5px;
+   padding-bottom: 55px;
+   background: linear-gradient(to left,rgba(1,14,27,1),rgba(23, 87, 135, 1));
+   border-radius: 15px;
+}
+
+.listing-page .link{
+   border: 2px solid #269ed1;
+   border-radius: 15px;
+   font-family: futura, sans-serif;
+   font-weight: bold;
+   font-size: 12px;
+}
+
+textarea {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 6px #269ed1, inset 0 0 2px 0 #269ed1;
+    border: 1px solid #269ed1;
+}
+
+.bottom-area a{
+    color: #ffffff;
+}
+
+.listing-page .link:hover {
+   box-shadow: 0 0 15px 6px #269ed1, inset 0 0 5px 0 #269ed1;
+   border-radius: 15px;
+}
+
+a.title {
+    color: #269ed1!important;
+    font-family: futura, sans-serif;
+}
+
+a.title:hover {
+    color: #269ed1!important;
+    font-size: 25px;
+    font-family: futura, sans-serif;
+}
+
+.thing a.title.loggedin:visited, .thing a.title:visited {
+    margin-bottom: 2px;
+    color: #d60000;
+    font-family: futura, sans-serif;
+}
+
+.commentarea .menuarea .toggle a, .commentarea .menuarea {
+    border: none;
+    margin: 0 10px 10px 10px;
+    padding: 0;
+    color: #ffffff;
+}
+
+.thing .tagline {
+    margin-bottom: 2px;
+    color: #000000;
+    font-family: futura, sans-serif;
+    font-weight: bold;
+}
+
+.thing .tagline .author, .titlebox .tagline a.author, .flairselector li a.author {
+    margin-bottom: 2px;
+    color: #269ed1;
+    font-family: futura, sans-serif;
+}
+
+.entry .buttons li a {
+    color: #000000;
+    font-weight: bold;
+    padding: 0 1px;
+    font-family: futura,sans-serif;
+}
+
+.usertext button {
+    margin: 5px 5px 10px 0;
+    background: #000000;
+    border: 2px solid #269ed1;
+    border-radius: 15px; /*too much?*/ 
+    text-transform: uppercase;
+    color: #269ed1;
+    font-weight: bold;
+}
+
+.usertext button:hover {
+    margin: 5px 5px 10px 0;
+    background: #269ed1;
+    border: 2px solid #000000;
+    border-radius: 15px; 
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 15px 1px #269ed1, inset 0 0 5px 0 #269ed1;
+}
+
+.domain a {
+    color: #269ed1;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    max-width: 19em;
+}
+
+.link {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 3px;
+    position: relative;
+    font-family: futura, sans-serif;
+    border-radius: 15px;
+    border: 1px solid #269ED1;
+}
+
+.listing-page .entry ul.flat-list.buttons li a, .redditSingleClick {
+    font-family: futura, sans-serif;
+    font-size: 14px;
+    position: relative;
+    min-width: 920px;
+    color: #269ed1;  
+}
+
+.comments-page .comment { 
+      padding: 15px 15px 4px!important; 
+      margin-right: 0px;
+      border-radius: 15px!important; 
+      border-top: 1px solid #269ed1!important; 
+      border-left: 1px solid #269ed1!important; 
+      border-right: 1px solid #269ed1!important; 
+      border-bottom: 3px solid #269ed1!important; 
+      box-shadow: 0 0 15px 3px #269ed1, inset 0 0 2px 0 #269ed1;
+}
+
+div.content { 
+            margin-right: 315px; 
+}
+
+div.content .thing { 
+            margin-right: 0; 
+}
+
+.comment.thing .child {
+    border-left: 2px dotted #000000;
+}
+
+.commentarea .nestedlisting .comment{
+    background-color: #ffffff !important;
+}
+.commentarea .nestedlisting .comment .comment{
+    background-color: #d1d1d1 !important;
+}
+.commentarea .nestedlisting .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment{
+    background-color: #d1d1d1 !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment .comment{
+    background-color: #d1d1d1 !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #d1d1d1 !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+.commentarea .nestedlisting .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #d1d1d1 !important;
+}
+
+.footer-parent, .login-form-side, .modal-content, .res #userTaggerToolTip, .res .RESDropdownList, .res .res-commentNavToggle-choices, .res .res-filterline, .res .res-filterline .res-filterline-dropdown .res-filterline-dropdown-container, .side #search .infobar, .side .linkinfo, .side .sidecontentbox, .side .titlebox, body:not(.subscriber)>div.content:before, div.content {
+    padding: 16px;
+    border: 1px solid #8a8a8a;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(44,73,104,1) 0%, rgba(22,48,70,1) 45%, rgba(28,61,95,1) 62%, rgba(23,43,64,1) 100%);
+    box-shadow: 0 0 15px 7px #269ed1, inset 0 0 2px 0 #269ed1;
+    color: #ffffff;
+}
+
+#userTaggerToolTip .RESDialogContents, .content .infobar, .flairoptionpane,  .side .sidecontentbox .content, .NERPageMarker, #progressIndicator {
+    padding: 8px;
+    color: #FFF;
+    border: 1px solid #1B4C74;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,rgba(0,0,0,.25) 0,rgba(0,9,23,.55) 60%);
+    box-shadow: inset 0 0 15px #269ed1;
+}
+
+.side .md p { 
+    color: #ffffff; 
+}
+
+.link .usertext-body .md {
+   background: #d1d1d1;
+   border-radius: 12px;
+   border: none;
+} 
+
+div .md p{
+    color: #000000;  
+}
+
+/*UpvoteAndDownvoteArrows*/
+ 
+                   /*Arrows*/ 
+ .arrow.up { background-image: url(%%Updoot-ball-WIP-189pxX181px-WHITE%%); 
+  background-position: 0px 0px; 
+  height: 24px; width: 25px; 
+ }
+ .arrow.upmod { 
+  background-image: url(%%Updoot-ball-WIP-189pxX181px-Blue%%); 
+  background-position: 0px 0px; 
+  height: 24px; width: 25px;  
+ }
+ .arrow.down { background-image: url(%%Updoot-ball-WIP-189pxX181px-WHITE%%); 
+  background-position: 0px 0px; 
+  height: 24px; width: 25px; 
+ }
+ .arrow.downmod { 
+  background-image: url(%%Updoot-ball-WIP-189pxX181px-Red%%); 
+  background-position: 0px 0px; 
+  height: 24px; width: 25px; 
+ }
+/*This allows arrows wider than 15px just change it to the width of your arrows*/
+.midcol  { min-width:25px !important; }
+
+.midcol .score.likes, .midcol .score.dislikes { 
+   color: #269ED1; 
+} 
+
+.link .score, .link .score:after {
+  text-align: center;
+  color: #269ED1;
+}
+
+.arrow.down:hover:before {
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	width: 102px;
+	padding: 5px;
+	border: 2px solid #333;
+	background-color: #269ed1;
+	content: "This is not a disagree button, use this only if the content is not relevant or does not add to the conversation";
+	text-align: center;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-top: 5px;
+        border-radius: 15px;
+}
+
+.link .rank {
+    float: left;
+    margin-top: 15px;
+    color: #269ed1;
+    font-family: futura,sans-serif;
+    font-size: medium;
+    text-align: right;
+}
+
+.flat-vert.title {
+    font-family: futura,sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: Uppercase;
+    text-decoration: underline;
+}
+
+.bottommenu {
+    color: #000000;
+    font-size: smaller;
+    clear: both;
+}
+ 
+div.commentarea .usertext-body .md p {
+   color: #000000;
+   font-family: futura, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Flair Related*/
+
+.side .titlebox .flairtoggle {
+  margin-top:10px;padding:3px 0px 4px 3px;
+  font-family:futura,sans-serif;
+  font-weight:BOLD;color: #269ED1;
+  font-size:0;
+  text-align: center;
+  border-left:1px solid #269ED1;
+  border-top:1px solid #269ED1;
+  border-right:1px solid #269ED1;
+  border-bottom:1px solid #269ED1;
+  background-color:#000000;
+  vertical-align:bottom; 
+  border-radius: 15px;
+  box-shadow: 0 0 15px 1.5px #269ed1, inset 0 0 5px 0 #269ed1;
+}
+
+.side .titlebox .flairtoggle::after{
+   visibility:visible;
+   font-size:small;
+   content:"CLICK BELOW TO SELECT YOUR FLAIR";
+   vertical-align:top;
+}
+
+.side .titlebox .tagline{
+   background-color:#ffffff;
+   padding:10px 0 10px 10px;
+   margin:0;margin-bottom:8px;
+   min-height:30px;
+   border:1px solid #269ED1;
+}
+
+.side .titlebox .flairselectbtn.access-required{
+     font-size:0
+}
+
+.side .titlebox .flairselectbtn.access-required:after{
+    font-size:10px;
+    content:"EDIT";
+    font-family: futura, sans-serif;
+    font-weight: bold;
+    color: #269ed1; 
+}
+
+.flairselector.drop-choices.active{
+  color:#000000;
+  background-color: #ffffff;
+  border-radius: 15px; 
+}
+
+.flairselector.drop-choices.active h2 {
+  color:#269ED1;
+  background-color: #000000;
+  border-radius: 15px; 
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 0 0 15px 1.5px #269ed1, inset 0 0 5px 0 #269ed1;
+  }
+
+
+.flairoptionpane {
+    margin-bottom: 4px;
+    max-height: 250px;
+    overflow: auto;
+    text-align: center;
+}
+
+/*Flair Color*/
+.linkflair-red .linkflairlabel{ background-color: #d60000; color: #ffffff; border-radius: 15px;  font-size: 12px; border:1px solid #269ED1; font-weight: bold;}
+.linkflair-blue .linkflairlabel{ background-color: #0061c2; color: #ffffff; border-radius: 15px;  font-size: 12px; border:1px solid #269ED1; font-weight: bold;}
+.linkflair-gold .linkflairlabel{ background-color: #d69a00; color: #000000; border-radius: 15px;  font-size: 12px; border:1px solid #269ED1; font-weight: bold;}
+.linkflair-black .linkflairlabel{ background-color: #000000; color: #ffffff; border-radius: 15px;  font-size: 12px; border:1px solid #269ED1; font-weight: bold;}
+.linkflair-green .linkflairlabel{ background-color: #059e00; color: #ffffff;border-radius: 15px;  font-size: 12px; border:1px solid #269ED1; font-weight: bold;}
+.linkflair-purple .linkflairlabel{ background-color: #11008f; color: #ffffff;border-radius: 15px;  font-size: 12px; border:1px solid #269ED1;font-weight: bold;}
+.linkflair-orange .linkflairlabel{ background-color: #e35902; color: #ffffff;border-radius: 15px;  font-size: 12px; border:1px solid #269ED1;font-weight: bold;}
+.linkflair-yellow .linkflairlabel{ background-color: #f1ed0e; color: #000000;border-radius: 15px;  font-size: 12px; border:1px solid #269ED1;font-weight: bold;}
+.flair-spl { background-color: #ffffff; color: #ffffff; border-radius: 15px;  font-size: 15px; border:1px solid #269ED1;font-weight: bold; }
+
+ 
+.flair .commentflairlabel { 
+            vertical-align: middle; 
+            position: right;
+}
+
+.res .RESUserTagImage {
+    vertical-align: baseline;
+}
+
+.flair:before {
+    content: normal;
+}
+
+.flair {
+   color:#000000;
+   font-family: futura, sans-serif;
+   font-weight: bold;
+   font-size: 12px;
+   background: url(%%spritesheet%%) no-repeat -9999px;
+   border: 0;
+   padding: 0;
+   text-indent: 16px;
+   vertical-align: middle;
+}
+
+.flair-GoldenGladiators {
+    height: 47px;
+    background-position: 0 0;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-GreenDragons {
+    height: 47px;
+    background-position: 0 -47px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-Knights {
+    height: 47px;
+    background-position: 0 -94px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-Lyzooodia {
+    height: 47px;
+    background-position: 0 -141px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-PSVR {
+    height: 30px;
+    background-position: 0 -188px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-PurpleFalcons {
+    height: 47px;
+    background-position: 0 -218px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-RedDemons {
+    height: 47px;
+    background-position: 0 -265px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-Rift {
+    height: 28px;
+    background-position: 0 -312px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-Silverbacks {
+    height: 47px;
+    background-position: 0 -340px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-TealToros {
+    height: 47px;
+    background-position: 0 -387px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+.flair-Vive {
+    height: 47px;
+    background-position: 0 -434px;
+    line-height: 47px; 
+    min-width: 47px; 
+    text-indent: 55px; /*line-height is height of image; min-width is width of image; text-indent is width plus 8*/
+}
+
+
+
+
+
+
+
+ 
+/*Change Stylesheet Format Start*/
+ 
+.stylesheet-customize-container
+ {
+	width: 100%;
+        border-radius: 15px;
+}
+#subreddit_stylesheet
+{
+	display: block;
+	overflow: hidden;
+}
+.sheets {
+	margin: 0;
+}
+#stylesheet_contents
+{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	padding: 5px;
+	background-color: #222;
+	color: #ace;
+	border: 2px solid #222;
+	height: 500px;
+	font-size: 13px;
+        border-radius: 15px;
+}
+.res-nightmode #stylesheet_contents
+{
+	background-color: #111;
+	border-color: #111;
+}
+/*Change Stylesheet Format End*/
+ 
+
+ 
+/*Color Bank
+RED - #d60000
+BLUE - #0061c2
+GOLD - #d69a00
+BLACK - #000000
+GREEN - #059e00
+PURPLE - #11008f
+WHITE - #ffffff
+SILVER - #b5b3c7
+SPL BLUE - #269ED1*/
+
+
